@@ -39,3 +39,18 @@ button.Vote {
   padding: 8px 12px;
   margin: 4px;
 }
+
+.navbar a {  
+  text-decoration: none;
+}
+
+.nft a{  
+  text-decoration: none;
+}
+.nft:hover{
+  transform: scale(1.05);
+}
+.ViewAll a{  
+  text-decoration: none;
+}
+
