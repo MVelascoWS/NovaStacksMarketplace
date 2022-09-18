@@ -5,857 +5,184 @@ import NFT from "./NFT";
 const Details = () => {
     return(
         <div className="footer">
-            <DetailsRootRoot>                
-                <ITEMDETAILS>
-                    <IMG4 src={`https://file.rendit.io/n/ZlMmKzcJke7IThtjhpy0.png`} />
-                    <INFO>
-                    <Heading1>
-                        <FlexColumn>
-                        <Text17>#00000</Text17>
-                        <Text18>“Ignar Brannson”</Text18>
-                        </FlexColumn>
-                        <FlexColumn1>
-                        <Background23>
-                            <FlexRow1>
-                            <StarBoldPx24
-                                src={`https://file.rendit.io/n/AGIlJxPPKekMRFxgYzJ9.svg`}
-                            />
-                            <StarBoldPx23
-                                src={`https://file.rendit.io/n/bcQlCg9JQ1Ex3jMdx2qd.svg`}
-                            />
-                            <StarBoldPx24
-                                src={`https://file.rendit.io/n/gwgWGBfdhfGgtQlgDZv0.svg`}
-                            />
-                            </FlexRow1>
-                            <FlexRow2>
-                            <StarBoldPx24
-                                src={`https://file.rendit.io/n/8OGQBpkij3HhqA9ZiZek.svg`}
-                            />
-                            <StarBoldPx20
-                                src={`https://file.rendit.io/n/OUqUQuXUu1IQSf3s1H6P.svg`}
-                            />
-                            </FlexRow2>
-                        </Background23>
-                        <FlexRow3>
-                            <Background25>
-                            <Icon2>
-                                <Fill
-                                src={`https://file.rendit.io/n/HcFzXDFd9UixE93k3B59.svg`}
-                                />
-                                <Image1
-                                src={`https://file.rendit.io/n/ZxhXP6Kur26l0PBskaJa.svg`}
-                                />
-                            </Icon2>
-                            <Text19>225</Text19>
-                            </Background25>
-                            <Background24>
-                            <Element27>Lv. 2</Element27>
-                            </Background24>
-                        </FlexRow3>
-                        </FlexColumn1>
-                    </Heading1>
-                    <Background22>
-                        <Text8>
-                        <Text20>Owned By</Text20>
-                        <Paragraph>SP1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRCBGD7R</Paragraph>
-                        </Text8>
-                    </Background22>
-                    <Element25>
-                        Habitant sollicitudin faucibus cursus lectus pulvinar dolor non
-                        ultrices eget. Facilisi lobortisal morbi fringilla urna amet sed
-                        ipsum vitae malesuada. Habitant sollicitudin faucibus cursus lectus
-                        pulvinar dolor non ultrices eget. Facilisi lobortisal morbi
-                        fringilla urna amet sed ipsum vitae malesuada.
-                    </Element25>
-                    <OuterSpaceFlexRow>
-                        <FlexColumn2>
-                        <HP>HP:</HP>
-                        <Text21>Attack :</Text21>
-                        <Speed>Speed : </Speed>
-                        </FlexColumn2>
-                        <FlexColumn3>
-                        <Text22>600</Text22>
-                        <Text23>48</Text23>
-                        <Text23>5.0</Text23>
-                        </FlexColumn3>
-                        <FlexColumn4>
-                        <Text25>Durability:</Text25>
-                        <Speed>Damage : </Speed>
-                        <Text26>Extra Damage:</Text26>
-                        </FlexColumn4>
-                        <FlexColumn5>
-                        <Text23>4</Text23>
-                        <Text22>78</Text22>
-                        <Text23>15</Text23>
-                        </FlexColumn5>
-                    </OuterSpaceFlexRow>
-                    <FlexRow4>
-                        <Background19>
-                        <CurrentPrice>
-                            Current
-                            {"  "}
-                            Price
-                        </CurrentPrice>
-                        <Text10>4.89 NVM</Text10>
-                        </Background19>
-                        <Background18>
-                        <Text31>Current Bid</Text31>
-                        <Text10>4.2 NVM</Text10>
-                        </Background18>
-                    </FlexRow4>
-                    <FlexRow5>
-                        <Background21>
-                        <Bag2 src={`https://file.rendit.io/n/7mJgCHvN1m8Sh2TvMPKJ.svg`} />
-                        <Text16>Buy now</Text16>
-                        </Background21>
-                        <Background20>
-                        <Bag src={`https://file.rendit.io/n/O8aXL1YKTYc7Wjl1KhmI.svg`} />
-                        <Text16>Place a bid (max. 3)</Text16>
-                        </Background20>
-                    </FlexRow5>
-                    <SlideBar>
-                        <Bar>
-                        <Text35>Tx History</Text35>
-                        <Line3
-                            src={`https://file.rendit.io/n/lDiGcfVn9X8LllkK1rEg.svg`}
-                        />
-                        </Bar>
-                        <BidHistory>
-                        <FlexColumn6>
-                            <Element14>
-                            <Text5>
-                                <Text36>4.89 NVM</Text36>
-                                <FlexColumn7>
-                                <Text37>06/10/2022</Text37>
-                                <Text38>Date</Text38>
-                                </FlexColumn7>
-                                <FlexColumn8>
-                                <Text16>SP2S...CR3T</Text16>
-                                <Text40>Buyer</Text40>
-                                </FlexColumn8>
-                                <FlexColumn9>
-                                <Text16>SP2M...7K2M</Text16>
-                                <Text40>Seller</Text40>
-                                </FlexColumn9>
-                            </Text5>
-                            <Line3
-                                src={`https://file.rendit.io/n/lDiGcfVn9X8LllkK1rEg.svg`}
-                            />
-                            </Element14>
-                            <Element16>
-                            <Text5>
-                                <Text36>4.89 NVM</Text36>
-                                <FlexColumn7>
-                                <Text37>06/10/2022</Text37>
-                                <Text38>Date</Text38>
-                                </FlexColumn7>
-                                <FlexColumn8>
-                                <Text16>SP2S...CR3T</Text16>
-                                <Text40>Buyer</Text40>
-                                </FlexColumn8>
-                                <FlexColumn9>
-                                <Text16>SP2M...7K2M</Text16>
-                                <Text40>Seller</Text40>
-                                </FlexColumn9>
-                            </Text5>
-                            <Line3
-                                src={`https://file.rendit.io/n/lDiGcfVn9X8LllkK1rEg.svg`}
-                            />
-                            </Element16>
-                            <Element16>
-                            <Text5>
-                                <Text36>4.89 NVM</Text36>
-                                <FlexColumn7>
-                                <Text37>06/10/2022</Text37>
-                                <Text38>Date</Text38>
-                                </FlexColumn7>
-                                <FlexColumn8>
-                                <Text16>SP2S...CR3T</Text16>
-                                <Text40>Buyer</Text40>
-                                </FlexColumn8>
-                                <FlexColumn9>
-                                <Text16>SP2M...7K2M</Text16>
-                                <Text40>Seller</Text40>
-                                </FlexColumn9>
-                            </Text5>
-                            <Line3
-                                src={`https://file.rendit.io/n/lDiGcfVn9X8LllkK1rEg.svg`}
-                            />
-                            </Element16>
-                        </FlexColumn6>
-                        <Navigation>
-                            <Background16 />
-                            <Background17 />
-                        </Navigation>
-                        </BidHistory>
-                    </SlideBar>
-                    </INFO>
-                </ITEMDETAILS>
-                <LIVEAUCTIONS>
-                    <FlexRow6>
-                        <Text57>Similar NFT’s</Text57>
-                        <ViewAll>
+            <div className="flex flex-col justify-start items-stretch bg-purple overflow-hidden px-60 pt-4">
+                <div className="flex flex-row justify-start items-start gap-10">
+                    <img className="w-full self-start" src={`https://file.rendit.io/n/ZlMmKzcJke7IThtjhpy0.png`} />
+                    <div className="felx flex-col justify-start items-start">
+                      <div className="flex flex-row justify-between mb-[10px]">
+                          <div className="flex flex-col justify-start items-center gap-[10px]">
+                            <div className=" self-start text-white font-urban font-bold text-[30px]">#00000</div>
+                            <div className=" self-start text-white font-urban font-bold text-[30px] whitespace-nowrap">“Ignar Brannson”</div>
+                          </div>
+                          <div className="flex flex-col justify-center items-end gap-[13px]">
+                            <div className="flex flex-row justify-center items-end bg-lowPurple rounded-lg py-[10px]">
+                              <div className="flex flex-row px-4 gap-1">
+                              {
+                                function(){
+                                  let stars = []
+                                  for (let i = 0; i < 5; i++)
+                                  {
+                                    stars.push(<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-5 h-5 fill-white">
+                                    <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd" />
+                                  </svg>
+                                  )
+                                  }
+                                  return stars;
+                                }()
+                              }
+                              </div>
+                            </div>
+                            <div className="flex flex-row justify-center self-stretch items-center gap-[10px]">
+                                <div className="flex flex-row justify-center items-center bg-lowPurple rounded-lg py-[7px] gap-3 px-4">
+                                  <div >
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6 fill-white">
+                                      <path d="M12 15a3 3 0 100-6 3 3 0 000 6z" />
+                                      <path fillRule="evenodd" d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 010-1.113zM17.25 12a5.25 5.25 0 11-10.5 0 5.25 5.25 0 0110.5 0z" clipRule="evenodd" />
+                                    </svg>
+                                  </div>
+                                  <div className="font-urban text-white font-bold whitespace-nowrap">225</div>
+                                </div>
+                                <div className="flex flex-row justify-center items-center bg-lowPurple rounded-lg py-[7px] gap-3 px-4">
+                                  <div className="font-urban text-white font-bold whitespace-nowrap">Lv. 2</div>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div className="flex flex-row justify-start items-center bg-lowPurple rounded-lg my-2 px-4 py-2">
+                          <div className="flex flex-col justify-center items-center gap-1">
+                            <div className=" self-start text-white font-urban text-sm whitespace-nowrap">Owned By</div>
+                            <div className=" self-start text-white font-urban font-bold text-lg whitespace-nowrap">SP1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRCBGD7R</div>
+                          </div>
+                      </div>
+                      <div className=" self-end text-white font-urban text-base py-1">
+                          Habitant sollicitudin faucibus cursus lectus pulvinar dolor non
+                          ultrices eget. Facilisi lobortisal morbi fringilla urna amet sed
+                          ipsum vitae malesuada. Habitant sollicitudin faucibus cursus lectus
+                          pulvinar dolor non ultrices eget. Facilisi lobortisal morbi
+                          fringilla urna amet sed ipsum vitae malesuada.
+                      </div>
+                      <div className="flex flex-row justify-start self-end bg-lowPurple rounded-lg my-2 px-4 py-2">
+                        <div className="flex flex-row grow">
+                          <div className="flex self-stretch flex-col justify-evenly items-start">
+                            <div className="self-start text-white font-urban text-sm whitespace-nowrap">HP:</div>
+                            <div className="self-start text-white font-urban text-sm whitespace-nowrap">Attack :</div>
+                            <div className="self-start text-white font-urban text-sm whitespace-nowrap">Speed : </div>
+                          </div>
+                          <div className=" flex self-stretch flex-col justify-evenly items-end pl-4">
+                            <div className="self-end text-white font-urban font-bold text-base whitespace-nowrap">600</div>
+                            <div className="self-end text-white font-urban font-bold text-base whitespace-nowrap">48</div>
+                            <div className="self-end text-white font-urban font-bold text-base whitespace-nowrap">5.0</div>
+                          </div>
+                        </div>
+                        <div className="flex flex-row grow">
+                          <div className="flex self-stretch flex-col justify-evenly items-start">
+                            <div className="self-start text-white font-urban text-sm whitespace-nowrap">Durability:</div>
+                            <div className="self-start text-white font-urban text-sm whitespace-nowrap">Damage : </div>
+                            <div className="self-start text-white font-urban text-sm whitespace-nowrap">Extra Damage:</div>
+                          </div>
+                          <div className=" flex self-stretch flex-col justify-evenly items-end pl-4">
+                            <div className="self-end text-white font-urban font-bold text-base whitespace-nowrap">4</div>
+                            <div className="self-end text-white font-urban font-bold text-base whitespace-nowrap">78</div>
+                            <div className="self-end text-white font-urban font-bold text-base whitespace-nowrap">15</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className=" flex flex-row justify-evenly self-stretch items-center gap-[30px] py-2">
+                        <div className="flex flex-row justify-center basis-1/2 grid-rows-1 items-start bg-lowPurple rounded-lg px-4 py-2 gap-4">
+                          <div className="self-center text-white font-urban text-base whitespace-nowrap">Current Price</div>
+                          <div className="self-center text-white font-urban font-bold text-lg whitespace-nowrap">4.89 NVM</div>
+                        </div>
+                        <div className="flex flex-row justify-center grow-1 basis-1/2 items-start bg-lowPurple rounded-lg px-4 py-2 gap-4">
+                          <div className="self-center text-white font-urban text-base whitespace-nowrap">Current Bid</div>
+                          <div className="self-center text-white font-urban font-bold text-lg whitespace-nowrap">4.2 NVM</div>
+                        </div>
+                      </div>
+                      <div className=" flex flex-row justify-evenly self-stretch items-center gap-[30px] py-2">
+                          <div className="flex flex-row justify-center items-center border-solid border-white rounded-full border-2 box-content cursor-pointer gap-4 py-2 grow-1 basis-1/2 hover:opacity-70">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6 fill-white self-center">
+                              <path fillRule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z" clipRule="evenodd" />
+                            </svg>
+                            <div className="self-center text-white font-urban font-bold text-lg whitespace-nowrap">Buy now</div>
+                          </div>
+                          <div className="flex flex-row justify-center items-center border-solid border-white rounded-full border-2 box-content cursor-pointer gap-4 py-2 grow-1 basis-1/2 hover:opacity-70">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6 fill-white">
+                              <path d="M10.5 1.875a1.125 1.125 0 012.25 0v8.219c.517.162 1.02.382 1.5.659V3.375a1.125 1.125 0 012.25 0v10.937a4.505 4.505 0 00-3.25 2.373 8.963 8.963 0 014-.935A.75.75 0 0018 15v-2.266a3.368 3.368 0 01.988-2.37 1.125 1.125 0 011.591 1.59 1.118 1.118 0 00-.329.79v3.006h-.005a6 6 0 01-1.752 4.007l-1.736 1.736a6 6 0 01-4.242 1.757H10.5a7.5 7.5 0 01-7.5-7.5V6.375a1.125 1.125 0 012.25 0v5.519c.46-.452.965-.832 1.5-1.141V3.375a1.125 1.125 0 012.25 0v6.526c.495-.1.997-.151 1.5-.151V1.875z" />
+                            </svg>
+                          <div className="self-center text-white font-urban font-bold text-lg whitespace-nowrap">Place a bid (max. 3)</div>
+                          </div>
+                      </div>
+                      <div className=" flex flex-col justify-center items-center mt-4 gap-[20px]">
+                          <div className="flex flex-col justify-center self-stretch items-center">
+                            <div className=" self-start text-white font-urban text-base whitespace-nowrap">Tx History</div>
+                            <div className="mt-2 mr-4 h-[1px] w-full bg-nearBlack"></div>
+                          </div>
+                          <div className="flex flex-col justify-between self-stretch items-end">
+                            <div className=" flex flex-col justify-between self-stretch items-end grow">
+                                <div className="flex flex-col justify-start self-stretch items-center">
+                                  <div className=" flex flex-row justify-center self-stretch gap-2 mr-6">
+                                    <div className="flex flex-col justify-start items-start gap-1 basis-1/4 grow-1">
+                                      <div className="self-start text-white font-urban font-bold text-base whitespace-nowrap">4.89 NVM</div>
+                                    </div>
+                                    <div className="flex flex-col justify-start items-end gap-1 basis-1/4 grow-1">
+                                      <div className="self-start text-white font-urban font-bold text-base whitespace-nowrap">06/10/2022</div>
+                                      <div className="self-start text-white font-urban text-sm whitespace-nowrap">Date</div>
+                                    </div>
+                                    <div className="flex flex-col justify-start items-end gap-1 basis-1/4 grow-1">
+                                      <div className="self-start text-white font-urban font-bold text-base whitespace-nowrap">SP2S...CR3T</div>
+                                      <div className="self-start text-white font-urban text-sm whitespace-nowrap">Buyer</div>
+                                    </div>
+                                    <div className="flex flex-col justify-start items-end gap-1 basis-1/4 grow-1">
+                                      <div className="self-start text-white font-urban font-bold text-base whitespace-nowrap">SP2M...7K2M</div>
+                                      <div className="self-start text-white font-urban text-sm whitespace-nowrap">Seller</div>
+                                    </div>
+                                  </div>                                  
+                                  <div className="mt-2 mr-4 h-[1px] w-full bg-nearBlack"></div>
+                                </div>
+                            </div>
+                            {/*<div className="w-[3px] h-[182px] relative">
+                                <div className="w-[1px] h-[180px] absolute border-solid border-lowPurple bg-lowPurple border-[1px]" />
+                                <div className="w-[3px] h-[31px] top-[60px] absolute bg-white rounded-lg" />
+                            </div>*/
+                            }
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div className=" flex flex-col justify-center my-6">
+                    <div className=" flex flex-row justify-between self-stretch items-center mb-4">
+                        <div className="font-urban text-white text-4xl font-bold">Similar NFT’s</div>
+                        <div className="">
                             <Link to="/marketplace">
-                                <Text58>Explore more</Text58>
-                                <Element31 />
+                            <div className="font-urban font-bold text-white uppercase text-[14px] tracking-[2px]">Explore more</div>
+                                <div className="h-[1px] w-[125px] bg-gradient-to-r from-[#e24fe5] to-[#4b50e6]" />
                             </Link>
-                        </ViewAll>
-                    </FlexRow6>
-                    <List>
-                        <NFT />
-                        <NFT />
-                        <NFT />
-                        <NFT />
-                    </List>
-                    <Nextpre src={`https://file.rendit.io/n/nUvRCz5SiOELN0wqsch7.svg`} />
-                </LIVEAUCTIONS>      
-            </DetailsRootRoot>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-10">
+                      {
+                        function(){
+                          let nfts = []
+                          for (let i = 0; i < 4; i++)
+                          {
+                            nfts.push(<NFT />)
+                          }
+                          return nfts;
+                        }()
+                      }
+                    </div>
+                    <img className="w-[150px] h-[16px] self-center" src={`https://file.rendit.io/n/nUvRCz5SiOELN0wqsch7.svg`} />
+                </div>      
+            </div>
         </div>
     );
 }
 export default Details;
 
-const Text10 = styled.div`
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 26px;
-  white-space: nowrap;
-  text-transform: capitalize;
-`;
-const Text16 = styled.div`
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: nowrap;
-`;
-const StarBoldPx24 = styled.img`
-  width: 22.29px;
-  height: 21.6px;
-`;
-const Speed = styled.div`
-  color: #ebebeb;
-  font-size: 15px;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: pre-wrap;
-`;
-const Text22 = styled.div`
-  align-self: center;
-  color: #ebebeb;
-  font-size: 15px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: nowrap;
-`;
-const Text23 = styled.div`
-  color: #ebebeb;
-  font-size: 15px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: nowrap;
-`;
-const Line3 = styled.img`
-  width: 557px;
-  height: 1px;
-`;
-const Text5 = styled.div`
-  width: 559px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-`;
-const Text36 = styled.div`
-  align-self: flex-start;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 22px;
-  text-align: right;
-  white-space: nowrap;
-  margin: 5px 76px 0px 0px;
-`;
-const FlexColumn7 = styled.div`
-  gap: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 0px 96px 0px 0px;
-`;
-const Text37 = styled.div`
-  align-self: flex-end;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: nowrap;
-`;
-const Text38 = styled.div`
-  color: #ebebeb;
-  font-size: 13px;
-  font-family: Urbanist;
-  line-height: 20px;
-  white-space: nowrap;
-`;
-const FlexColumn8 = styled.div`
-  gap: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 70px 0px 0px;
-`;
-const Text40 = styled.div`
-  align-self: flex-start;
-  color: #ebebeb;
-  font-size: 13px;
-  font-family: Urbanist;
-  line-height: 20px;
-  white-space: nowrap;
-`;
-const FlexColumn9 = styled.div`
-  gap: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-const Element16 = styled.div`
-  gap: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-`;
-const DetailsRootRoot = styled.div`  
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: #3f2b46;
-  overflow: hidden;
-`;
-const ITEMDETAILS = styled.div`
-  gap: 99px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0px 84px 0px;
-`;
-const IMG4 = styled.img`
-  width: 690px;
-  height: 779px;
-  align-self: flex-end;
-`;
-const INFO = styled.div`
-  height: 781px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-`;
-const Heading1 = styled.div`
-  width: 621px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0px 0px 10px 0px;
-`;
-const FlexColumn = styled.div`
-  height: 81.84px;
-  gap: 25.05px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 1.58px 0px;
-`;
-const Text17 = styled.div`
-  width: 216px;
-  height: 25.37px;
-  align-self: flex-start;
-  color: #ffffff;
-  font-size: 30px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 26px;
-  text-transform: capitalize;
-  margin: 0px 0px 0px 1px;
-`;
-const Text18 = styled.div`
-  color: #ffffff;
-  font-size: 30px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 26px;
-  white-space: nowrap;
-  text-transform: capitalize;
-`;
-const FlexColumn1 = styled.div`
-  gap: 13px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-const Background23 = styled.div`
-  width: 162px;
-  gap: 7.43px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #343444;
-  border-radius: 10px;
-  padding: 5.76px 0px 8.42px 0px;
-`;
-const FlexRow1 = styled.div`
-  width: 81.74px;
-  height: 21.82px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-`;
-const StarBoldPx23 = styled.img`
-  width: 22.29px;
-  height: 21.6px;
-  align-self: flex-start;
-`;
-const FlexRow2 = styled.div`
-  height: 21.82px;
-  gap: 7.43px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-`;
-const StarBoldPx20 = styled.img`
-  width: 22.29px;
-  height: 21.6px;
-  align-self: flex-end;
-`;
-const FlexRow3 = styled.div`
-  gap: 11px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-self: stretch;
-  align-items: center;
-`;
-const Background25 = styled.div`
-  width: 75px;
-  gap: 6px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #343444;
-  border-radius: 40px;
-  padding: 7px 0px;
-`;
-const Icon2 = styled.div`
-  width: 16px;
-  height: 12px;
-  position: relative;
-`;
-const Fill = styled.img`
-  width: 6.26px;
-  height: 5.83px;
-  left: 4.87px;
-  top: 3.09px;
-  position: absolute;
-`;
-const Image1 = styled.img`
-  width: 16px;
-  height: 12px;
-  position: absolute;
-`;
-const Text19 = styled.div`
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: nowrap;
-`;
-const Background24 = styled.div`
-  width: 76px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #343444;
-  border-radius: 40px;
-`;
-const Element27 = styled.div`
-  width: 59.84px;
-  height: 36px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 26px;
-  text-align: center;
-  text-transform: capitalize;
-`;
-const Background22 = styled.div`
-  width: 582px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: #343444;
-  border-radius: 16px;
-  padding: 12px 19px;
-  margin: 0px 0px 11px 1px;
-`;
-const Text8 = styled.div`
-  gap: 2px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-const Text20 = styled.div`
-  align-self: flex-start;
-  color: #8989a0;
-  font-size: 13px;
-  font-family: Urbanist;
-  line-height: 20px;
-  white-space: nowrap;
-`;
-const Paragraph = styled.div`
-  color: #ebebeb;
-  font-size: 18px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: nowrap;
-`;
-const Element25 = styled.div`
-  width: 622px;
-  height: 71px;
-  align-self: flex-end;
-  color: #ffffff;
-  font-size: 14px;
-  font-family: Urbanist;
-  line-height: 22px;
-  text-transform: capitalize;
-  margin: 0px 0px 10px 0px;
-`;
-const OuterSpaceFlexRow = styled.div`
-  width: 588px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-self: flex-end;
-  background-color: #343444;
-  border-radius: 8px;
-  padding: 12px 16px 18px 16px;
-  margin: 0px 1px 18px 0px;
-`;
-const FlexColumn2 = styled.div`
-  height: 98px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0px 19px 0px 0px;
-`;
-const HP = styled.div`
-  align-self: flex-start;
-  color: #ebebeb;
-  font-size: 15px;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: nowrap;
-`;
-const Text21 = styled.div`
-  color: #ebebeb;
-  font-size: 15px;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: nowrap;
-`;
-const FlexColumn3 = styled.div`
-  height: 98px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 0px 212px 0px 0px;
-`;
-const FlexColumn4 = styled.div`
-  height: 98px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 0px 14px 0px 0px;
-`;
-const Text25 = styled.div`
-  color: #ebebeb;
-  font-size: 15px;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: nowrap;
-  margin: 0px 0px 0px 1px;
-`;
-const Text26 = styled.div`
-  align-self: center;
-  color: #ebebeb;
-  font-size: 15px;
-  font-family: Urbanist;
-  line-height: 22px;
-  white-space: nowrap;
-`;
-const FlexColumn5 = styled.div`
-  height: 98px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-`;
-const FlexRow4 = styled.div`
-  gap: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-self: stretch;
-  align-items: center;
-  padding: 0px 1px;
-  margin: 0px 0px 20px 0px;
-`;
-const Background19 = styled.div`
-  width: 295px;
-  gap: 92px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #343444;
-  border-radius: 8px;
-  padding: 12px 0px;
-`;
-const CurrentPrice = styled.div`
-  color: #ebebeb;
-  font-size: 15px;
-  font-weight: 600;
-  font-family: Urbanist;
-  line-height: 26px;
-  white-space: pre-wrap;
-`;
-const Background18 = styled.div`
-  width: 265px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #343444;
-  border-radius: 8px;
-  padding: 12px 14px 12px 16px;
-`;
-const Text31 = styled.div`
-  color: #ebebeb;
-  font-size: 15px;
-  font-weight: 600;
-  font-family: Urbanist;
-  line-height: 26px;
-  white-space: nowrap;
-`;
-const FlexRow5 = styled.div`
-  gap: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-self: stretch;
-  align-items: center;
-  padding: 0px 1px;
-  margin: 0px 0px 24px 0px;
-`;
-const Background21 = styled.button`
-  gap: 15.64px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  border-style: solid;
-  border-color: #ffffff;
-  border-radius: 56px;
-  padding: 11px 117px 13px 83.85px;
-  border-width: 1px;
-  background: none;
-  box-sizing: content-box;
-  cursor: pointer;
-  &: hover {
-    opacity: 70%;
-  }
-`;
-const Bag2 = styled.img`
-  width: 18.51px;
-  height: 16.67px;
-`;
-const Background20 = styled.button`
-  gap: 17.67px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  border-style: solid;
-  border-color: #ffffff;
-  border-radius: 56px;
-  padding: 12px 70px 12px 53.67px;
-  border-width: 1px;
-  background: none;
-  box-sizing: content-box;
-  cursor: pointer;
-  &: hover {
-    opacity: 70%;
-  }
-`;
-const Bag = styled.img`
-  width: 16.67px;
-  height: 16.67px;
-`;
-const SlideBar = styled.div`
-  gap: 21px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-const Bar = styled.div`
-  gap: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: flex-start;
-  align-items: center;
-  margin: 0px 0px 0px 1px;
-`;
-const Text35 = styled.div`
-  align-self: flex-start;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 600;
-  font-family: Urbanist;
-  line-height: 26px;
-  white-space: nowrap;
-`;
-const BidHistory = styled.div`
-  gap: 58px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-`;
-const FlexColumn6 = styled.div`
-  height: 182px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-self: stretch;
-  align-items: flex-end;
-`;
-const Element14 = styled.div`
-  gap: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-self: flex-start;
-  align-items: center;
-`;
-const Navigation = styled.div`
-  width: 3px;
-  height: 182px;
-  position: relative;
-`;
-const Background16 = styled.div`
-  width: 1px;
-  height: 180px;
-  position: absolute;
-  border-style: solid;
-  border-color: #343444;
-  background-color: #343444;
-  border-width: 1px;
-`;
-const Background17 = styled.div`
-  width: 3px;
-  height: 31px;
-  top: 59.88px;
-  position: absolute;
-  background-color: #ebebeb;
-  border-radius: 100px;
-`;
-const LIVEAUCTIONS = styled.div`  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 0px 20px 0px;
-`;
-const FlexRow6 = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: stretch;
-  align-items: center;
-  margin: 0px 0px 40px 0px;
-`;
-const Text57 = styled.div`
-  color: #ffffff;
-  font-size: 36px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 44px;
-  white-space: nowrap;
-  text-transform: capitalize;
-`;
-const ViewAll = styled.div`
-  gap: 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: flex-end;
-  align-items: center;
-  margin: 0px 0px 9px 0px;
-`;
-const Text58 = styled.div`
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: Urbanist;
-  line-height: 20px;
-  white-space: nowrap;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-`;
+
 const Element31 = styled.div`
   width: 118px;
   height: 1px;
   background-image: linear-gradient(217deg, #e24fe5 0%, #4b50e6 100%);
-`;
-const List = styled.div`
-  gap: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: 0px 0px 30px 0px;
 `;
 const Nextpre = styled.img`
   width: 150.67px;

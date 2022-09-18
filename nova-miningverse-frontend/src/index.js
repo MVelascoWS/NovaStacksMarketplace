@@ -22,7 +22,7 @@ WebFont.load({
     <Connect
       authOptions={{
         appDetails: {
-          name: "Stacks React Template",
+          name: "Nova Miningverse",
           // todo:
           icon: window.location.origin + "/logo.png",
         },
