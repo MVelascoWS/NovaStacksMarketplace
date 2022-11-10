@@ -18,8 +18,7 @@
 (define-constant ERR-LISTING (err u106))
 (define-constant NMV-LIMIT u107)
 
-;; Withdraw wallets
-(define-constant WALLET_1 'SP3V08RTP9VRJ5JEQJ0FP6N5M9BBMK04GZ7XAAE8V)
+(define-data-var manager principal tx-sender)
 
 ;; Define Variables
 (define-data-var last-id uint u0)
@@ -87,7 +86,7 @@
         (let
         ((current-balance (get-balance new-owner)))
           (begin
-            (try! (stx-transfer? u23750000 tx-sender WALLET_1))
+            (try! (stx-transfer? u23750000 tx-sender (var-get manager)))
             (var-set last-id next-id)
             (map-set token-count new-owner (+ current-balance u1))
             (ok true)

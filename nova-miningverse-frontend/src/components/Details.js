@@ -55,11 +55,7 @@ const Details = () => {
                           </div>
                       </div>
                       <div className=" self-end text-white font-urban text-base py-1">
-                          Habitant sollicitudin faucibus cursus lectus pulvinar dolor non
-                          ultrices eget. Facilisi lobortisal morbi fringilla urna amet sed
-                          ipsum vitae malesuada. Habitant sollicitudin faucibus cursus lectus
-                          pulvinar dolor non ultrices eget. Facilisi lobortisal morbi
-                          fringilla urna amet sed ipsum vitae malesuada.
+                      A strong hero, in the face of danger, combats adversity through feats of ingenuity, courage, and strength.
                       </div>
                       <div className="flex flex-row justify-start self-end bg-lowPurple rounded-lg my-2 px-4 py-2">
                         <div className="flex flex-row grow">

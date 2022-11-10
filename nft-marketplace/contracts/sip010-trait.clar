@@ -1,6 +1,5 @@
-
 (define-trait sip010-trait
-	(
+(
 		;; Transfer from the caller to a new principal
 		(transfer (uint principal principal (optional (buff 34))) (response bool uint))
 
